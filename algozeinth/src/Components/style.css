@@ -1,0 +1,167 @@
+.header{
+    position: absolute;
+    width : 100%;
+    height : 35rem;
+   
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(270deg, #05445E 0%, #022534 100%);
+}
+.lheader{
+    position: relative;
+    flex:50%;
+}
+.rheader{
+    flex : 50%;
+    position: relative;
+}
+.mlogo{
+position: absolute;
+height:  30rem;
+width: 30rem;
+top:0rem;
+left: calc(50% - 10rem);
+}
+.lbox{
+    position: relative;
+}
+.temp{
+    position: absolute;
+top:7rem;
+left : 2rem;
+}
+.heading{
+  
+width: 759px;
+height: 70.33px;
+
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 800;
+font-size: 72px;
+line-height: 72px;
+/* or 100% */
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+.txt{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+.buttons{
+    width: 70%;
+    position: relative;
+    display: flex;
+    top:0.5rem;
+    justify-content: space-between;
+}
+.bt1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    
+   
+    width: 235px;
+    height: 64px;
+    
+    
+    background: linear-gradient(90.76deg, #FFFFFF 0%, #DFF6FF 144.63%);
+    border-radius: 8px;
+}
+.btxt1{
+    width: 114px;
+    height: 48px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #05445E;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.bt2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 10px;
+    
+  
+    width: 235px;
+    height: 64px;
+    
+    
+    background: linear-gradient(94.24deg, #033042 -0.03%, #005C83 99.97%);
+    border-radius: 8px;
+}
+.btxt2{
+    width: 164px;
+    height: 48px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    /* identical to box height, or 218% */
+    
+    text-align: center;
+    letter-spacing: -0.03em;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.Rectbb{
+    margin: 1rem;
+}
+.Rectb{
+    justify-content: space-between;
+    display: flex;
+    
+}
+.Rect{
+margin : 0.5rem;   
+margin-right: 1rem;
+background: linear-gradient(270deg, #05445E 0%, #022534 100%);
+box-sizing: border-box;
+width: 3rem;
+height: 3rem;
+border-radius: 8px;
+border:3px  white;
+
+
+}
