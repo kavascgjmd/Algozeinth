@@ -16,7 +16,7 @@ function Header() {
             </div>
             <div className='buttons'>
                 <button className='bt1'>
-                    <div className='btxt1'>Join Now</div>
+                    <div className='btxt1'>Join Now &nbsp;<i class="fa-solid fa-arrow-right"></i></div>
                 </button>
                 <button className='bt2'>
                     <div className='btxt2'>View Curicullum</div>
